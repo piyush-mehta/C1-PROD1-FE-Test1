@@ -10,15 +10,15 @@ module.exports = {
         host : '127.0.0.1',
         port : 5554,
         cli_args : {
-          'webdriver.chrome.driver' : 'node_modules/chromedriver/lib/chromedriver/chromedriver.exe'
-          //  'webdriver.chrome.driver': chromedriver.path
+          //  'webdriver.chrome.driver' : 'node_modules/chromedriver/lib/chromedriver/chromedriver.exe'
+          'webdriver.chrome.driver': chromedriver.path
         }
     },
 
     test_settings : {
         default : {
             selenium_host : '127.0.0.1',
-            selenium_port : 5554,
+            selenium_port : 4444,
             end_session_on_fail: false,
             screenshots : {
                 enabled : true,
@@ -46,7 +46,7 @@ module.exports = {
     },
     smokeTestHeadless : {
         selenium_host : '127.0.0.1',
-        selenium_port : 5554,
+        selenium_port : 4444,
         end_session_on_fail: false,
         screenshots : {
             enabled : true,
