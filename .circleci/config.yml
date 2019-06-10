@@ -22,6 +22,7 @@ jobs:
     steps:
       - checkout
       - run: echo $PWD
+      - run: echo ls
       - run: java -version
       - run: node --version
       - run: npm install
