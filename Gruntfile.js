@@ -50,8 +50,8 @@ module.exports = function (grunt) {
                                 "args" : ["start-maximized"]
                             }},
                         cli_args : {
-                         //   'webdriver.chrome.driver' : 'node_modules/chromedriver/lib/chromedriver/chromedriver.exe'
-                         'webdriver.chrome.driver': chromedriver.path
+                         'webdriver.chrome.driver' : 'node_modules/chromedriver/lib/chromedriver/chromedriver.exe'
+                         //   'webdriver.chrome.driver': chromedriver.path
                         }},
                     firefox: {selenium_host : '127.0.0.1',
                         selenium_port : 5554,

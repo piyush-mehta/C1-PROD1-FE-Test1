@@ -10,8 +10,8 @@ module.exports = {
         host : '127.0.0.1',
         port : 5554,
         cli_args : {
-          //  'webdriver.chrome.driver' : 'node_modules/chromedriver/lib/chromedriver/chromedriver.exe'
-          'webdriver.chrome.driver': chromedriver.path
+          'webdriver.chrome.driver' : 'node_modules/chromedriver/lib/chromedriver/chromedriver.exe'
+          //  'webdriver.chrome.driver': chromedriver.path
         }
     },
 
